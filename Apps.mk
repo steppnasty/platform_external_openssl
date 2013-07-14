@@ -25,7 +25,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE:= openssl
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(host_src_files)
-LOCAL_SHARED_LIBRARIES := libssl-host libcrypto-host
+LOCAL_SHARED_LIBRARIES := libssl libcrypto
 LOCAL_C_INCLUDES := $(host_c_includes)
 LOCAL_CFLAGS := $(host_c_flags)
 LOCAL_ADDITIONAL_DEPENDENCIES := $(local_additional_dependencies)
